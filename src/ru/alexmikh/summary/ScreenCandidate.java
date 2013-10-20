@@ -82,12 +82,12 @@ public class ScreenCandidate extends AppActivity {
                 Intent intent;
                 intent = new Intent(getApplicationContext(), ScreenEmployer.class);
 
-                if(fio.getText().toString() != "" && fio.getText() != null
-                    && phone.getText().toString() != "" && phone.getText() != null
-                    && email.getText().toString() != "" && email.getText() != null
-                    && birthday.getText().toString() != "" && birthday.getText() != null
-                    && workPosition.getText().toString() != "" && workPosition.getText() != null
-                    && salary.getText().toString() != "" && salary.getText() != null){
+                if(fio.getText().toString() != "" || fio.getText() != null
+                    || phone.getText().toString() != "" || phone.getText() != null
+                    || email.getText().toString() != "" || email.getText() != null
+                    || birthday.getText().toString() != "" || birthday.getText() != null
+                    || workPosition.getText().toString() != "" || workPosition.getText() != null
+                    || salary.getText().toString() != "" || salary.getText() != null){
 
                     intent.putExtra("fio", fio.getText().toString());
                     intent.putExtra("phone", phone.getText().toString());
