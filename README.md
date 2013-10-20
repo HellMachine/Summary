@@ -3,4 +3,4 @@ Summary
 
 Summary_for_school.hh.ru
 
-<img src="https://github.com/HellMachine/Summary/blob/master/res/drawable-hdpi/ic_launcher.png" width="308" height="172" hspace="5" vspace="7" alt="">
+<img src="http://cs11504.vk.me/u158121613/-14/x_1d8f1341.jpg" width="403" height="604" hspace="5" vspace="7" alt="">
