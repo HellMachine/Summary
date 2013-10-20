@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="idGender" type="id"/>
+    <item name="idCurrency" type="id"/>
+    <item name="idBDtv" type="id"/>
+    <item name="idBDet" type="id"/>
+    <item name="idBtSend2activity" type="id"/>
+    <item name="idFIO" type="id"/>
+    <item name="idPhone" type="id"/>
+    <item name="idEmail" type="id"/>
+    <item name="idWorkPosition" type="id"/>
+    <item name="idSalary" type="id"/>
+    <item name="idTitle" type="id"/>
+
+    <item name="idDataFIO" type="id"/>
+    <item name="idDataPhone" type="id"/>
+    <item name="idDataEmail" type="id"/>
+    <item name="idDataBD" type="id"/>
+    <item name="idDataGender" type="id"/>
+    <item name="idDataWorkPosition" type="id"/>
+    <item name="idDataSalary" type="id"/>
+    <item name="idDataAnswer" type="id"/>
+    <item name="idBtAnswer" type="id"/>
+</resources>

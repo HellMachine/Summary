@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Резюме</string>
+    <string name="action_settings">Settings</string>
+    <string name="hintFIO">Фамилия Имя Отчество</string>
+    <string name="hintPhone">Ваш номер телефона</string>
+    <string name="hintEmail">Ваш e-mail</string>
+    <string name="tvBDtitle">Дата рождения:</string>
+    <string name="tvGenderTitle">Ваш пол:</string>
+    <string name="btSend">Отправить</string>
+    <string name="hintWork">Укажите должность</string>
+    <string name="hintSalary">Зарплата</string>
+    <string name="tvTitle">Заполните все поля!</string>
+
+    <string name="testString">NULL DATA</string>
+    <string name="tvFIO2Activity">ФИО</string>
+    <string name="tvPhone2Activity">Номер телефона</string>
+    <string name="tvEmail2Activity">e-Mail</string>
+    <string name="tvBD2Activity">Дата рождения:</string>
+    <string name="tvGender2Activity">Пол:</string>
+    <string name="tvWorkPosition2Activity">Должность:</string>
+    <string name="tvSalary2Activity">Зарплата:</string>
+    <string name="tvAnswer2Activity">Ответ соискателю:</string>
+
+    <string-array name="gender">
+        <item>муж.</item>
+        <item>жен.</item>
+    </string-array>
+
+    <string-array name="currency">
+        <item>руб.</item>
+        <item>usd</item>
+        <item>eur</item>
+    </string-array>
+
+</resources>

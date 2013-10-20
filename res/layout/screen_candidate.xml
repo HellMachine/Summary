@@ -1,0 +1,222 @@
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:padding="5dp">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:orientation="vertical"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:padding="5dp"
+                      android:id="@+id/linearLayout">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="@string/tvTitle"
+                        android:id="@id/idTitle"
+                        android:textColor="@color/tvBlue_color"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="5dp"/>
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/imageView9"
+                        android:src="@drawable/logo"
+                        android:layout_gravity="right|center_vertical"
+                        android:layout_marginLeft="200dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView"
+                        android:src="@drawable/person"
+                        android:layout_marginTop="5dp"/>
+
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPersonName"
+                        android:ems="10"
+                        android:id="@id/idFIO"
+                        android:hint="@string/hintFIO"
+                        />
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView2"
+                        android:src="@drawable/phone"
+                        android:layout_marginTop="5dp"/>
+
+                <EditText
+                        android:layout_width="256dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"
+                        android:ems="10"
+                        android:id="@id/idPhone"
+                        android:hint="@string/hintPhone"/>
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/imageView5"
+                        android:src="@drawable/gender"
+                        android:layout_marginLeft="3dp"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tvGenderTitle"
+                        android:id="@+id/textView2"
+                        android:layout_marginLeft="3dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView3"
+                        android:src="@drawable/mail"
+                        android:layout_marginTop="5dp"/>
+
+                <EditText
+                        android:layout_width="256dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:ems="10"
+                        android:id="@id/idEmail"
+                        android:hint="@string/hintEmail"/>
+
+                <Spinner
+                        android:layout_width="100dp"
+                        android:layout_height="fill_parent"
+                        android:id="@id/idGender"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView4"
+                        android:src="@drawable/birthday"
+                        android:layout_marginTop="5dp"/>
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tvBDtitle"
+                        android:id="@+id/textView"
+                        android:singleLine="false"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="-3dp"/>
+
+                <EditText
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:id="@id/idBDet"
+                        android:inputType="none"
+                        android:editable="false"
+                        android:focusable="false"
+                        android:onClick="tvBDclick"/>
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView8"
+                        android:src="@drawable/alias"
+                        android:onClick="tvBDclick"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView6"
+                        android:src="@drawable/job"
+                        android:layout_marginTop="5dp"/>
+
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@id/idWorkPosition"
+                        android:hint="@string/hintWork"/>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical">
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView7"
+                        android:src="@drawable/wallet"
+                        android:layout_marginTop="5dp"/>
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:ems="10"
+                        android:id="@id/idSalary"
+                        android:hint="@string/hintSalary"/>
+
+                <Spinner
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:id="@id/idCurrency"/>
+
+                <Button
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/btSend"
+                        android:id="@id/idBtSend2activity"
+                        android:layout_gravity="center_vertical|right"
+                        />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
