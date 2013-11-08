@@ -1,6 +1,6 @@
-Summary
+п»їSummary
 =======
-Задание для hh.ru
+Р—Р°РґР°РЅРёРµ РґР»СЏ hh.ru
 
 Summary_for_school.hh.ru
 
